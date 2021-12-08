@@ -1,0 +1,9 @@
+# install first on terminal: pip install colorama
+
+import colorama
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
+
+print(Fore.BLUE+Back.RED+"Hi My name is Claudia Penetra "+ Fore.YELLOW+ Back.BLUE+"I am your Machine Learning Instructor")
+print(Back.CYAN+"Hi My name is Claudia Penetra")
+print(Fore.Yellow + Back.GREEN+ "Hi My name is Claudia Penetra")
